@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'express-app/**' # Trigger only when files in the express.app folder change
+      - '.github/workflow/workflow-test.yaml'
 
 jobs:
   publish-docker-hub:
